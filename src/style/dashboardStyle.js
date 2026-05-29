@@ -1,4 +1,3 @@
-
 export const dashboardStyles = {
   layout: {
     display: "flex",
@@ -28,7 +27,7 @@ export const dashboardStyles = {
     bgcolor: "#fff",
     display: "flex",
     alignItems: "center",
-    px: 3,
+    px: 1,
     justifyContent: "space-between",
     boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
   },
@@ -38,10 +37,19 @@ export const dashboardStyles = {
   },
 
   card: {
-    bgcolor: "#fff",
-    borderRadius: 2,
-    p: 2,
-    boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+    bgcolor: "#ffffff",
+    borderRadius: "18px",
+    p: 3,
+    border: "1px solid #e5e7eb",
+    boxShadow: "0 10px 30px rgba(15, 23, 42, 0.08)",
+    transition:
+      "transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease",
+
+    "&:hover": {
+      bgcolor: "#f8fafc",
+      transform: "translateY(-6px) scale(1.02)",
+      boxShadow: "0 20px 40px rgba(15, 23, 42, 0.15)",
+    },
   },
 
   cardTitle: {

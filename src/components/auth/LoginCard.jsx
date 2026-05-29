@@ -1,4 +1,4 @@
-import { Box, Button, Card, Typography, TextField, CardContent } from "@mui/material";
+import {  Button, Card,  TextField, CardContent } from "@mui/material";
 
 import { loginPageStyles } from "../../style/authStyle";
 
@@ -21,7 +21,7 @@ export default function LoginCard() {
         <Card sx={loginPageStyles.card}>
             {/**** take full of card inside with padding 4 */}
             <CardContent sx={{
-                p: 4,
+                p: 4,   
                 display: "flex",
                 flexDirection: "column"
             }}>

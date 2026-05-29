@@ -1,7 +1,5 @@
 import {
     Grid,
-    Card,
-    CardContent,
     Typography,
     Table,
     TableBody,
