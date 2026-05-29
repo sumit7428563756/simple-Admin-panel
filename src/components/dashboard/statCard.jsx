@@ -8,7 +8,7 @@ export default function StatCard({
     icon
 }) {
     return (
-        <Card sx={dashboardStyles.statCard}>
+        <Card sx={dashboardStyles.Card}>
             <CardContent>
                 <Box
                     sx={{

@@ -3,11 +3,12 @@ export const dashboardStyles = {
   layout: {
     display: "flex",
     minHeight: "100vh",
+    overflow: "hidden",
     bgcolor: "#f5f7fb",
   },
 
   sidebar: {
-    width: "250px",
+    width: "260px",
     bgcolor: "#1e293b",
     color: "#fff",
     position: "fixed",
@@ -22,16 +23,14 @@ export const dashboardStyles = {
   },
 
   navbar: {
+    width: "100%",
     height: "60px",
     bgcolor: "#fff",
     display: "flex",
     alignItems: "center",
-    justifyContent: "space-between",
     px: 3,
+    justifyContent: "space-between",
     boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-    position: "sticky",
-    top: 0,
-    zIndex: 1000,
   },
 
   pageContent: {

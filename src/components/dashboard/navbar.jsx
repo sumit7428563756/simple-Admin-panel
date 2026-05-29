@@ -10,7 +10,10 @@ export default function Navbar(){
             <Typography variant="h6" fontWeight="bold">
                Dashboard
             </Typography>
-            <Avatar />
+            <Avatar sx={{
+                mr: 5,
+                fontSize: "1.2rem",
+            }} />
 
         </Box>
     );

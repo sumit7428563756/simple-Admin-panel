@@ -6,14 +6,13 @@ export const loginPageStyles = {
 
     //container object
     container: {
-
-        width: "100%",
-        minHeight: "100vh",
+        minHeight: "100%",
         background: "#f4f7fe",
         display: "flex",
+        overflow: "hidden",
         justifyContent: "center",
         alignItems: "center",
-        padding: 2,
+        padding: 8,
     },
 
     //card object
